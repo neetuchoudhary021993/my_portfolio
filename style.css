@@ -294,11 +294,12 @@ width: 40vw;
     margin-bottom: 5rem;
 }
 .skills .skills-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+/*     display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display:grid;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 2rem;
 }
 .skills-container .skills-box{
