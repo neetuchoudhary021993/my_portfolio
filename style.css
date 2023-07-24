@@ -296,10 +296,10 @@ width: 40vw;
 .skills .skills-container{
 /*     display: grid;
     grid-template-columns: repeat(2, 1fr); */
-    display:flex;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     gap: 2rem;
 }
 .skills-container .skills-box{
@@ -727,20 +727,7 @@ outline-color: var(--white-color);
         text-align: center;
         margin-top: 2rem;
     }
-    .home .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg) translate(-105px, -220px);
-    }
-
-    .home .profession-box .profession:nth-child(2){
-        transform: rotate(0deg) translate(0, -335px);
-    }
-
-    .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-100px, -430px);
-    }
-    .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-200px, -335px);
-    }
+    
     
 }
 
