@@ -296,7 +296,7 @@ width: 40vw;
 .skills .skills-container{
 /*     display: grid;
     grid-template-columns: repeat(2, 1fr); */
-    display:grid;
+    display:flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
