@@ -688,7 +688,9 @@ outline-color: var(--white-color);
     #darkMode-icon {
         right: 6rem;
     }
-
+  .header {
+      width:100vw;
+  }
     .home {
         padding: 0 3% 30rem;
     }
