@@ -724,6 +724,21 @@ outline-color: var(--white-color);
         text-align: center;
         margin-top: 2rem;
     }
+    .home .profession-box .profession:nth-child(1){
+        transform: rotate(-90deg) translate(-100px, -220px);
+    }
+
+    .home .profession-box .profession:nth-child(2){
+        transform: rotate(0deg) translate(0, -335px);
+    }
+
+    .home .profession-box .profession:nth-child(3){
+        transform: rotate(90deg) translate(-95px, -430px);
+    }
+    .home .profession-box .profession:nth-child(4){
+        transform: rotate(180deg) translate(-200px, -335px);
+    }
+    
 }
 
 
