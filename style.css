@@ -286,6 +286,12 @@ width: 40vw;
     margin: 2rem 0 3rem;
     text-align: justify;
 }
+.about-content p #moreAbout {
+    display: none;
+}
+.about-content span {
+ color: var(--text-color);
+}
 .skills{
     min-height: auto;
     padding-bottom: 7rem;
