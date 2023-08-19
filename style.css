@@ -85,7 +85,7 @@ margin-right: 3.5rem;
 }
 #darkMode-icon {
     font-size: 2.4rem;
-    color: var(--main-color);
+    color: darkblue;
     cursor: pointer;
 }
 .header.sticky #darkMode-icon{
