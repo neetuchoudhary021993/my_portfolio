@@ -21,7 +21,7 @@
 
 .dark-mode {
     --bg-color:#0b061f;
-   --text-color: #fdfdfd;
+   --text-color: #0b061f;
    --shadow-color:rgba(0, 0, 0, .7);
 }
 html{
@@ -67,7 +67,7 @@ margin-right: 3.5rem;
  color: var(--text-color);
 }
 .header.sticky .navbar a.active{
-    color: var(--main-color);
+    color: darkblue;
 }
 
 .navbar a.active::before{
