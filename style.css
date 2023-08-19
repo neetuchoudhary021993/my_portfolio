@@ -21,7 +21,7 @@
 
 .dark-mode {
     --bg-color:#0b061f;
-   --text-color: darkblue;
+   --text-color: var(--white-color);
    --shadow-color:rgba(0, 0, 0, .7);
 }
 html{
